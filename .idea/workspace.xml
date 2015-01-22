@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/LeetOJ$OJ.coverage" NAME="OJ Coverage Results" MODIFIED="1421631986230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetOJ$27_Remove_Element.coverage" NAME="27 Remove Element Coverage Results" MODIFIED="1421832179971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetOJ$1_Two_Sum.coverage" NAME="1 Two Sum Coverage Results" MODIFIED="1421853934714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetOJ$172_Factorial_Trailing_Zeroes.coverage" NAME="172 Factorial Trailing Zeroes Coverage Results" MODIFIED="1421895315669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetOJ$88_Merge_Sorted_Array.coverage" NAME="88 Merge Sorted Array Coverage Results" MODIFIED="1421722162386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -66,11 +67,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="179 Largest Number.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="179 Largest Number.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/179 Largest Number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37254903" vertical-offset="190" max-vertical-offset="700">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="700">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="172 Factorial Trailing Zeroes.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/172 Factorial Trailing Zeroes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23529412" vertical-offset="0" max-vertical-offset="510">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -94,6 +105,7 @@
         <option value="$PROJECT_DIR$/26 Remove Duplicates from Sorted Array.py" />
         <option value="$PROJECT_DIR$/1 Two Sum.py" />
         <option value="$PROJECT_DIR$/179 Largest Number.py" />
+        <option value="$PROJECT_DIR$/172 Factorial Trailing Zeroes.py" />
       </list>
     </option>
   </component>
@@ -175,27 +187,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.179 Largest Number">
-    <configuration default="false" name="35 Search Insert Position" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetOJ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/35 Search Insert Position.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.172 Factorial Trailing Zeroes">
     <configuration default="false" name="27 Remove Element" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,6 +264,26 @@
       <module name="LeetOJ" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/179 Largest Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="172 Factorial Trailing Zeroes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LeetOJ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/172 Factorial Trailing Zeroes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -466,19 +478,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.35 Search Insert Position" />
-      <item index="1" class="java.lang.String" itemvalue="Python.27 Remove Element" />
-      <item index="2" class="java.lang.String" itemvalue="Python.26 Remove Duplicates from Sorted Array" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1 Two Sum" />
-      <item index="4" class="java.lang.String" itemvalue="Python.179 Largest Number" />
+      <item index="0" class="java.lang.String" itemvalue="Python.27 Remove Element" />
+      <item index="1" class="java.lang.String" itemvalue="Python.26 Remove Duplicates from Sorted Array" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1 Two Sum" />
+      <item index="3" class="java.lang.String" itemvalue="Python.179 Largest Number" />
+      <item index="4" class="java.lang.String" itemvalue="Python.172 Factorial Trailing Zeroes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.179 Largest Number" />
-        <item index="1" class="java.lang.String" itemvalue="Python.1 Two Sum" />
-        <item index="2" class="java.lang.String" itemvalue="Python.26 Remove Duplicates from Sorted Array" />
-        <item index="3" class="java.lang.String" itemvalue="Python.27 Remove Element" />
-        <item index="4" class="java.lang.String" itemvalue="Python.35 Search Insert Position" />
+        <item index="0" class="java.lang.String" itemvalue="Python.172 Factorial Trailing Zeroes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.179 Largest Number" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1 Two Sum" />
+        <item index="3" class="java.lang.String" itemvalue="Python.26 Remove Duplicates from Sorted Array" />
+        <item index="4" class="java.lang.String" itemvalue="Python.27 Remove Element" />
       </list>
     </recent_temporary>
   </component>
@@ -511,7 +523,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22152779" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33084577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33084577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -667,8 +679,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/179 Largest Number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37254903" vertical-offset="190" max-vertical-offset="700">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="700">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/172 Factorial Trailing Zeroes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23529412" vertical-offset="0" max-vertical-offset="510">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
       </provider>
