@@ -13,9 +13,11 @@ class Solution:
     # @return a boolean
     def hasCycle(self, head):
         first = head
+        if not head:
+            return False
         while head:
             temp = head.next
-            head.next = head
+            head.next = first
             head = temp
             if not temp or not temp.next :
                 return False
